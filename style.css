@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(163, 124, 188);
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+body {
+    font-family: "Montserrat";
+    background-color: rgb(255, 255, 255);
+}
+
+li {
+    list-style:none;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(250, 250, 248);
+    justify-content: space-between;
+}
+
+.logo {
+    width: 5%;
+    height: auto;
+    margin-left: 80px;
+}
+
+.nav-container {
+    display: flex;
+    gap: 50px; /*отступы между элементами*/
+    align-items: center; /*вертикальное равнение*/
+    justify-content: center; /*центрирование*/
+    flex-grow: 1;
+}
+
+.order {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(255, 169, 71);
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.dog {
+    width: 50%;
+    height: auto;
+}
+
+.main_content {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+h1 {
+    width: 450px;
+    font-size: 40px;
+}
+
+.main_text {
+    font-size: 30px;
+}
+
+
+.footer-btn {
+    background-color: rgb(220, 77, 0);
+    font-size: 20px;
+    padding: 20px 70px;
+    border-radius: 50px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    background-color: rgb(137, 84, 185);
+    margin-top: 100px;
+    padding: 30px;
+}
+
+
+
+
+.footer-text h2 {
+    font-size: 30px;
+    color: white;
+
+}
+
+.footer-text p {
+    font-size: 22px;
+    color:white;
+    margin-top: -15px;
+}
+
+
+.contact-dog {
+    width: 30%;
+}
+
+.main-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.text-contact p {
+    font-size: 20px;
+}
+
+.text-contact h2 {
+    font-size: 30px;
+}
